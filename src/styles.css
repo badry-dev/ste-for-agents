@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-ink: #0c1210;
+  --color-ink-2: #17211d;
+  --color-paper: #f3ecdf;
+  --color-paper-dim: #c9bfae;
+  --color-amber: #e4a33b;
+  --color-signal: #1f6a4e;
+  --color-line: #2a3531;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    margin: 0;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+  }
+}
+
+.caution-stripe {
+  height: 0.375rem;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--color-ink) 0 8px,
+    var(--color-amber) 8px 16px
+  );
+}
+
+@keyframes film-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.film-card {
+  animation: film-in 280ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .film-card {
+    animation: none;
+  }
+}

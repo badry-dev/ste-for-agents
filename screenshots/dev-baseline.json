@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "STE for Agents",
+      "hasCanvas": false,
+      "bodyTextLen": 200,
+      "bodyTextHash": "4132857fea75a54002c9b0796aef1d77138d7cc56e7bc17cad50df82b9266691",
+      "bodyTextPrefix": "STE for agents 01 The reader Issue 9 An explainer What if the ne",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "STE for Agents",
+      "hasCanvas": false,
+      "bodyTextLen": 200,
+      "bodyTextHash": "4132857fea75a54002c9b0796aef1d77138d7cc56e7bc17cad50df82b9266691",
+      "bodyTextPrefix": "STE for agents 01 The reader Issue 9 An explainer What if the ne",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
