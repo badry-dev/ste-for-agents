@@ -11,6 +11,10 @@ certified check against the licensed ASD-STE100 dictionary. Its examples are
 original. Refer to the official specification for authoritative rules and
 word-list decisions.
 
+# Website: 
+https://ste-for-agents.grok.me
+
+
 ## The film
 
 The film is approximately 4 minutes 28 seconds long and has eight chapters:
@@ -119,3 +123,5 @@ the configured Vite and deployment workflow.
 - Tailwind CSS 4
 - Lucide icons
 
+Copywrite: Badry Darkoush 
+htto://badry.dev 
